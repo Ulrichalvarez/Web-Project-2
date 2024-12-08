@@ -1,0 +1,12 @@
+:root {
+    --roboto-12-bold-font-family: "Roboto", Helvetica;
+    --roboto-12-bold-font-weight: 700;
+    --roboto-12-bold-font-size: 12px;
+    --roboto-12-bold-letter-spacing: 0px;
+    --roboto-12-bold-line-height: 16px;
+    --roboto-12-bold-font-style: normal;
+    --colour-canvas-palette-y2: rgba(247, 227, 118, 1);
+    --colour-canvas-palette-y7: rgba(89, 46, 19, 1);
+  }
+  
+  

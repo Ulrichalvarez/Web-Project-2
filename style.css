@@ -1,0 +1,1215 @@
+.button{
+    width: 84.5px;
+    height: 43.48px;
+    margin-top: -0.24px;
+    margin-bottom: -0.24px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    background-color: #4d3beb;
+}
+/*Homepage*/
+.homepage {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .homepage .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    flex: 0 0 auto;
+    background-color: #454545;
+  }
+  
+  .homepage .img {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .homepage .nav {
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f5eee7;
+  }
+  
+  .homepage .logo {
+    position: relative;
+    width: 118px;
+    height: 80px;
+  }
+  
+  .homepage .destinations {
+    display: flex;
+    width: 386px;
+    height: 79px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+    position: relative;
+  }
+  .homepage .CTA {
+    all: unset;
+    box-sizing: border-box;
+    border: solid #eb473b;
+    padding: 5px;
+    gap: 10px;
+    padding: 10px 24px;
+    position: relative;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #eb473b;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    /*
+    font-family: var(--body-bold-font-family);
+    font-weight: var(--body-bold-font-weight);
+    */
+    color: #191919;
+    font-size: var(--body-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-bold-letter-spacing);
+    line-height: var(--body-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-bold-font-style);
+    background-color: #eb473b;
+  }
+
+  .homepage .button {
+    width: 84.5px;
+    height: 43.48px;
+    margin-top: -0.24px;
+    margin-bottom: -0.24px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    background-color: #eb473b;
+  }
+  
+  .homepage .text-wrapper {
+    position: absolute;
+    width: 61px;
+    top: 13px;
+    left: 13px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .homepage .div {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .homepage .text-wrapper-2 {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .homepage .text-wrapper-3 {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .homepage .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 32px 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .homepage .headline {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 45px;
+  }
+  
+  .homepage .headline-2 {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 46px;
+    letter-spacing: -0.92px;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  
+  .homepage .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 612px;
+    align-items: center;
+    gap: 19px;
+    padding: 0px 32px 32px;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .homepage .frame-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 367px;
+    border-radius: 16px;
+    background-image: url(./img/sugar-honey-ice-tea-1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  .homepage .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+  }
+  
+  .homepage .tattoo-wrapper {
+    display: flex;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .homepage .tattoo {
+    position: relative;
+    flex: 1;
+    margin-top: -4.00px;
+    margin-bottom: -2.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .homepage .subline {
+    position: relative;
+    width: 386px;
+    height: 90px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  .homepage .subline-2 {
+    position: relative;
+    width: 386px;
+    height: 114px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .homepage .check-out-more-of-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    flex: 0 0 auto;
+    border-radius: 24px;
+    position: relative;
+    background-color: #eb473b;
+  }
+  
+  .homepage .check-out-more-of {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-left: -11.00px;
+    margin-right: -11.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  .homepage .footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #eb473b;
+  }
+  /*
+  .homepage .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #eb473b;
+  }
+  */
+  .homepage .logo-icons {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 36.64px;
+    margin-top: -0.50px;
+  }
+  
+  .homepage .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .homepage .entity-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .homepage .global-local {
+    position: relative;
+    align-self: stretch;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+/* Portfolio */
+
+   /* Centering styles */
+   html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    border-radius: 10px;
+    
+  }
+
+  .REFERENCE {
+    max-width: 1200px; /* Example max width for content */
+    width: 100%;
+    height: 100%;
+
+   
+
+    background-color: #fff;
+  }
+  /*
+.REFERENCE {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 1667px;
+    align-items: flex-start;
+    position: relative;
+  }
+  */
+  .REFERENCE .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    flex: 0 0 auto;
+    background-color: #454545;
+  }
+  
+
+
+  .REFERENCE .nav {
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f5eee7;
+  }
+  
+  .REFERENCE .logo {
+    position: relative;
+    width: 118px;
+    height: 80px;
+  }
+  
+  .REFERENCE .destinations {
+    display: flex;
+    width: 386px;
+    height: 79px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+    position: relative;
+  }
+  
+  .REFERENCE .button {
+    position: relative;
+    width: 84.5px;
+    height: 43.48px;
+    margin-top: -0.24px;
+    margin-bottom: -0.24px;
+    background-color: #eb473b;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+    
+    .REFERENCE .CTA {
+        all: unset;
+        box-sizing: border-box;
+        border: solid #eb473b;
+        padding: 5px;
+        gap: 10px;
+        padding: 10px 24px;
+        position: relative;
+        border-radius: 24px;
+        border: 1px solid;
+        border-color: #eb473b;
+        width: fit-content;
+        margin-top: -1.00px;
+        font-family: var(--roboto-12-bold-font-family);
+        font-family: "Roboto-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 14px;
+        /*
+        font-family: var(--body-bold-font-family);
+        font-weight: var(--body-bold-font-weight);
+        */
+        color: #191919;
+        font-size: var(--body-bold-font-size);
+        text-align: center;
+        letter-spacing: var(--body-bold-letter-spacing);
+        line-height: var(--body-bold-line-height);
+        white-space: nowrap;
+        font-style: var(--body-bold-font-style);
+        background-color: #eb473b;
+      }
+
+
+  .REFERENCE .text-wrapper {
+    position: absolute;
+    width: 61px;
+    top: 13px;
+    left: 13px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .REFERENCE .div {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .REFERENCE .text-wrapper-2 {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .REFERENCE .text-wrapper-3 {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .REFERENCE .portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .REFERENCE .sidebar {
+    display: flex;
+    width: 187px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+  }
+  
+  .REFERENCE .headline {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 35px;
+  }
+  
+  .REFERENCE .headline-2 {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 46px;
+    letter-spacing: -0.92px;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  
+  .REFERENCE .sidebar-2 {
+    display: inline-flex;
+    height: 382px;
+    padding: 19px 0px;
+    margin-right: -3.00px;
+    background-color: #eb473b;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+  }
+  
+  .REFERENCE .projects {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 32px;
+  }
+  
+  .REFERENCE .div-wrapper {
+    display: flex;
+    width: 134px;
+    align-items: baseline;
+    gap: 16px;
+    position: relative;
+    left: 16px;
+  }
+  
+  .REFERENCE .text-wrapper-4 {
+    position: relative;
+    width: 228px;
+    margin-top: -1.00px;
+    margin-right: -94.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .REFERENCE .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -11.00px;
+  }
+  
+  .REFERENCE .banner-2 {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    height: 304px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .REFERENCE .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    height: 28px;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .REFERENCE .text-wrapper-6 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .REFERENCE .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .REFERENCE .design {
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    align-items: center;
+    gap: 19px;
+    padding: 75px 0px 0px;
+    position: relative;
+  }
+  
+  .REFERENCE .tattoo-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 23px;
+    background-color: transparent;
+  }
+  
+  .REFERENCE .tattoo {
+    position: absolute;
+    width: 85px;
+    top: -8px;
+    left: 108px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .REFERENCE .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 466px;
+    border-radius: 16px;
+  }
+  
+  .REFERENCE .subline {
+    position: relative;
+    width: 241px;
+    height: 48px;
+  }
+  
+  .REFERENCE .p {
+    position: absolute;
+    width: 241px;
+    top: -1px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .REFERENCE .check-out-more-of-wrapper {
+    position: static;
+    width: 231px;
+    height: 40px;
+    background-color: #eb473b;
+    border-radius: 24px;
+  }
+  
+  .REFERENCE .check-out-more-of {
+    position: relative;
+    top: 9px;
+    left: 20px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .REFERENCE .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 254px;
+    padding: 0px 32px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .REFERENCE .frame {
+    display: flex;
+    flex-direction: column;
+    width: 294px;
+    align-items: center;
+    gap: 19px;
+    position: relative;
+  }
+  
+  .REFERENCE .text-wrapper-8 {
+    position: relative;
+    align-self: stretch;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .REFERENCE .frame-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 264px;
+    border-radius: 16px;
+    background-size: 100% 100%;
+  }
+  
+  .REFERENCE .rose-tattoo-made-at {
+    position: relative;
+    width: 192px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .REFERENCE .button-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: 119px;
+    height: 40px;
+  }
+  
+  .REFERENCE .book-here-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 24px;
+    position: relative;
+    left: -18px;
+    background-color: #eb473b;
+    border-radius: 24px;
+    border: 0px none;
+  }
+  
+  .REFERENCE .book-here {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .REFERENCE .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #eb473b;
+  }
+  
+  .REFERENCE .logo-icons {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 36.64px;
+    margin-top: -0.50px;
+  }
+  
+  .REFERENCE .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .REFERENCE .entity-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .REFERENCE .global-local {
+    position: relative;
+    align-self: stretch;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  /*CONTACT*/
+  .contact {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+    max-width: 1200px; /* Example max width for content */
+    width: 100%;
+    height: 100%;
+
+   
+
+    background-color: #fff;
+  }
+  
+  .contact .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 200px;
+    flex: 0 0 auto;
+    background-color: #454545;
+  }
+  
+  .contact .img {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .contact .nav {
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f5eee7;
+  }
+  
+  .contact .logo {
+    position: relative;
+    width: 118px;
+    height: 80px;
+  }
+  
+  .contact .destinations {
+    display: flex;
+    width: 386px;
+    height: 79px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0px;
+    position: relative;
+  }
+  
+  .contact .button {
+    position: relative;
+    width: 84.5px;
+    height: 43.48px;
+    margin-top: -0.24px;
+    margin-bottom: -0.24px;
+    background-color: #eb473b;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .contact .text-wrapper {
+    position: absolute;
+    width: 61px;
+    top: 13px;
+    left: 13px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .contact .div {
+    position: absolute;
+    top: 13px;
+    left: 16px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .contact .text-wrapper-2 {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .contact .text-wrapper-3 {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-family: var(--roboto-12-bold-font-family);
+    font-weight: var(--roboto-12-bold-font-weight);
+    color: #000000;
+    font-size: var(--roboto-12-bold-font-size);
+    letter-spacing: var(--roboto-12-bold-letter-spacing);
+    line-height: var(--roboto-12-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--roboto-12-bold-font-style);
+  }
+  
+  .contact .headline-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 32px 32px 19px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .contact .headline {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 45px;
+  }
+  
+  .contact .headline-2 {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 46px;
+    letter-spacing: -0.92px;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  
+  .contact .tattoo-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 26px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .contact .tattoo {
+    position: relative;
+    align-self: stretch;
+    margin-top: -36.00px;
+    margin-bottom: -34.00px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #191919;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .contact .email-icon {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    align-items: flex-start;
+    gap: 19px;
+    padding: 19px 32px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .contact .email-icon-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 19px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .contact .objects-envelope {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact .subline {
+    position: relative;
+    width: 139px;
+    height: 18px;
+    margin-top: -1.00px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #191919;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .contact .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #eb473b;
+  }
+  
+  .contact .logo-icons {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 36.64px;
+    margin-top: -0.50px;
+  }
+  
+  .contact .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .contact .entity-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .contact .global-local {
+    position: relative;
+    align-self: stretch;
+    font-family: "Market Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #363636;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
